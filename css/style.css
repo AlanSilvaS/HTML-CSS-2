@@ -1,0 +1,235 @@
+@font-face {
+    font-family: Euclid Circular A;
+    src: url('/fonts/Euclid\ Circular\ A\ Regular\ copy.ttf');
+}
+
+@font-face {
+    font-family: GoshaSans;
+    src: url('/fonts/GoshaSans-Bold.otf');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    transition: .5s;
+}
+body{
+    background-color: #ffffff;
+}
+iframe{
+    width: 100%;
+    height: 500px;
+    border: 0;
+    /* filter: invert(100%);  */
+}
+section {
+    /* padding-top: 40px; */
+}
+
+.menuC button{
+    display: none;
+}
+.menuC{
+    /* background-color: aliceblue; */
+    width: 100%;
+    height: 65px;
+    /* position: absolute; */
+    z-index: 99;
+    /* position: fixed; */
+    
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    top: 0;
+    right: 0;
+}
+
+.menu{
+    /* margin-top: 25px; */
+    padding: 22px 10px;
+    
+    
+}
+.menu li a{
+    font-family:Euclid Circular A;
+    /* padding-right: 25px; */
+    color: rgba(0, 0, 14, 0.87);
+    font-size: 20px;
+    padding: 0 20px;
+    font-weight: 400;
+}
+.menu li a:hover{
+    transition: .5s;
+    letter-spacing: 1.5px;
+}
+
+.btn{
+    background-color: rgba(0, 170, 211, 1);
+    border-radius: 20px;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    color: #ffffff !important;
+}
+
+/* principal */
+.escritas{
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    font-size: 25px;
+    line-height: 30px;
+    color: rgba(0, 0, 14, 0.55);
+    font-family: Euclid Circular A;
+}
+.h2{
+    font-family: GoshaSans;
+    color: rgba(0, 0, 14, 0.87);
+    font-size: 70px;
+    letter-spacing: -0.04em;
+    line-height: 100%;
+    width: 600px;
+    height: 275px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.h3, .h4{
+    padding: 8px 0;
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* position: relative; */
+    margin-top: 5em;
+    justify-content: space-around;
+}
+.campoemail{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 15px;
+}
+.btn-2{
+    background-color: #00AAD3;
+    color: rgba(255, 255, 255, 1);
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+.campoemail input{
+    /* width: 40%; */
+    /* height: 55px; */
+    /* border: 0; */
+}
+.email{
+    /* box-sizing: border-box; */
+    background: #fbfbfb;
+    border: 1px solid #d5d5d6;
+    border-radius: 5px;
+    /* flex: none;
+    order: 0;
+    flex-grow: 0;
+    align-self: stretch; */
+    text-align: center;
+    /* width: 40%; */
+    font-size: 18px;
+   
+}
+
+.imagem{
+    height: 500px;
+}
+
+/* Features */
+.featuresC{
+    display: flex;
+    flex-direction: row;
+    margin: 3em auto;
+    justify-content: space-around;
+}
+
+.doistextos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+.f{
+    font-family: Euclid Circular A;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    color: rgba(0, 0, 14, 0.55);
+    
+}
+.l{
+    cursor: pointer;
+    font-family: Euclid Circular A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #00AAD3;
+    letter-spacing: -0.5px;
+    
+}
+.featuresI{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* margin: 50px auto; */
+    width: 90%;
+}
+.featuresCard{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* flex: 1 1 300px; */
+    border: 1px solid #eaeaea;
+    border-radius: 7px;
+    margin: 5px 20px;
+    padding: 15px 20px;
+    align-items: center;
+}
+.imagemF{
+    background: #f5fbfa;
+    border-radius: 100px;
+    width: 110px;
+    height: 80px;
+    
+}
+.featuresCard ul{
+    padding-left: 30px;
+}
+
+.tituloCard{
+    font-size: 20px;
+    color: rgba(0, 0, 14, 0.87);
+    font-weight: 400;
+    font-family: Euclid Circular A;
+    /* align-self: stretch; */
+    letter-spacing: -0.6px;
+    width: 180px;
+    height: 24px;
+    line-height: 29px;
+}
+.textoCard{
+    padding: 5px 0;
+    font-family:Euclid Circular A;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(0, 0, 14, 0.35);
+    line-height: 25px;
+}
+.subCard{
+    font-family: Euclid Circular A;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #fd7960;
+}
